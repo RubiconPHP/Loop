@@ -68,7 +68,7 @@ class Loop implements LoopInterface
      *
      * @return $this
      */
-    public function attach($event, callable $callback = null, $priority = Priority::NORMAL)
+    public function attach($event, $callback = null, $priority = Priority::NORMAL)
     {
         $this->emitter->attach($event, $callback, $priority);
 
