@@ -1,0 +1,13 @@
+{
+  "require": {
+    "zendframework/zend-eventmanager": "2.*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "5.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Rubicon\\Loop\\": "src/"
+    }
+  }
+}
