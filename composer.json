@@ -1,7 +1,7 @@
 {
   "name": "rubicon/loop",
   "description": "Event supported Loop library",
-  "keywords": ["loop, event"],
+  "keywords": ["loop", "event"],
   "type": "library",
   "require": {
     "zendframework/zend-eventmanager": "2.*"
